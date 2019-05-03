@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/backgroundLayout"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgArtWork"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="60dp"
+            android:layout_weight="2"
+            android:scaleType="fitCenter"
+            android:src="@drawable/radio_logo"/>
+
+        <TextView
+            android:id="@+id/txtSongName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ellipsize="marquee"
+            android:textAlignment="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+
+            android:singleLine="true"
+            android:text="No Data Received" />
+
+        <ImageButton
+            android:id="@+id/playBtn"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_play_arrow_black" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:thumbTint="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/txtRadiolizeLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textSize="8dp"
+            android:textAlignment="center"
+            android:singleLine="true"
+            android:gravity="bottom"
+            android:paddingBottom="10dp"
+            android:text="Made With Radiolize" />
+    </LinearLayout>
+
+
+</LinearLayout>

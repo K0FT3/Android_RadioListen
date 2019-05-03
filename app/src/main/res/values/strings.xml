@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Radio Antalya</string>
+    <string name="station_name">\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 Radio Antalya \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 Radio Antalya</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="no_stream">Radio station couldn\'t stream!</string>
+    <string name="live_broadcast">On Air</string>
+</resources>
