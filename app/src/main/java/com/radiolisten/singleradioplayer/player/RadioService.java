@@ -1,4 +1,4 @@
-package com.radiolize.singleradioplayer.player;
+package com.radiolisten.singleradioplayer.player;
 
 
 import android.app.Service;
@@ -37,15 +37,15 @@ import com.google.android.exoplayer2.upstream.DefaultBandwidthMeter;
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSourceFactory;
 import com.google.android.exoplayer2.util.Util;
-import com.radiolize.singleradioplayer.R;
+import com.radiolisten.singleradioplayer.R;
 
 import org.greenrobot.eventbus.EventBus;
 
 public class RadioService extends Service implements Player.EventListener, AudioManager.OnAudioFocusChangeListener {
 
-    public static final String ACTION_PLAY = "com.radiolize.singleradioplayer.player.ACTION_PLAY";
-    public static final String ACTION_PAUSE = "com.radiolize.singleradioplayer.player.ACTION_PAUSE";
-    public static final String ACTION_STOP = "com.radiolize.singleradioplayer.player.ACTION_STOP";
+    public static final String ACTION_PLAY = "com.radiolisten.singleradioplayer.player.ACTION_PLAY";
+    public static final String ACTION_PAUSE = "com.radiolisten.singleradioplayer.player.ACTION_PAUSE";
+    public static final String ACTION_STOP = "com.radiolisten.singleradioplayer.player.ACTION_STOP";
 
     private final IBinder iBinder = new LocalBinder();
 

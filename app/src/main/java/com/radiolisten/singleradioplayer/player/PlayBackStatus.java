@@ -1,4 +1,4 @@
-package com.radiolize.singleradioplayer.player;
+package com.radiolisten.singleradioplayer.player;
 
 
 public class PlayBackStatus {

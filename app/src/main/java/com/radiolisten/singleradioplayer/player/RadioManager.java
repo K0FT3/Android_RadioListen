@@ -1,4 +1,4 @@
-package com.radiolize.singleradioplayer.player;
+package com.radiolisten.singleradioplayer.player;
 
 import android.content.ComponentName;
 import android.content.Context;

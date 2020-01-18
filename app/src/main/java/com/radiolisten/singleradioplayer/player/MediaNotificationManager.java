@@ -1,4 +1,4 @@
-package com.radiolize.singleradioplayer.player;
+package com.radiolisten.singleradioplayer.player;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -13,8 +13,8 @@ import android.os.Build;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationManagerCompat;
 
-import com.radiolize.singleradioplayer.MainActivity;
-import com.radiolize.singleradioplayer.R;
+import com.radiolisten.singleradioplayer.MainActivity;
+import com.radiolisten.singleradioplayer.R;
 
 public class MediaNotificationManager {
 

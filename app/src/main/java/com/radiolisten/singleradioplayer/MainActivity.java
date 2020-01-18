@@ -1,4 +1,4 @@
-package com.radiolize.singleradioplayer;
+package com.radiolisten.singleradioplayer;
 
 
 import android.content.Context;
@@ -14,8 +14,8 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.radiolize.singleradioplayer.player.PlayBackStatus;
-import com.radiolize.singleradioplayer.player.RadioManager;
+import com.radiolisten.singleradioplayer.player.PlayBackStatus;
+import com.radiolisten.singleradioplayer.player.RadioManager;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -132,10 +132,10 @@ public class MainActivity extends AppCompatActivity {
         radioManager.playOrPause(streamURL);
     }
 
-    @OnClick(R.id.txtRadiolizeLink)
+    @OnClick(R.id.txtRadioLink)
     public void onLinkClicked() {
         Intent httpIntent = new Intent(Intent.ACTION_VIEW);
-        httpIntent.setData(Uri.parse(Defaults.RADIOLIZE_URL));
+        httpIntent.setData(Uri.parse(Defaults.BRAND_URL));
 
         startActivity(httpIntent);
     }
